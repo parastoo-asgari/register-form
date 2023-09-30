@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/master.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <p>parastoo asgari</p>
+    </div>
+    <div class="form-valid">
+        <ul class="top-form">
+            <div class="li"></div>
+            <li class="signup"><a href="#">sign up</a></li>
+            <li class="login"><a href="#">log in</a></li>
+        </ul>
+        <div>
+            <div id="signUp">
+                <h1>Sign Up for Free</h1>
+                <form action="reg.php" name="myforms" onsubmit="myforms(event)" id="signUp">
+                    <div class="line1">
+                        <input type="text" name="first name" placeholder="firstname*" required="">
+
+                        <label for="" style="color:red">error eccured!</label>
+                        <input type="text" name="last name" placeholder="lastname*" required="">
+
+                        <label for="" style="color:red">error eccured!</label>
+                    </div>
+
+                    <input type="text" name="email address" placeholder="email address*" required="">
+
+                    <label for="" style="color:red">error eccured!</label>
+
+                    <input type="text" name="password" placeholder="set a password*" required="">
+
+                    <label for="" style="color:red">error eccured!</label>
+                    <button class="btn1">GET STARTED</button>
+
+                </form>
+            </div>
+            <div id="logIn">
+
+                <h1>Welcome Back!</h1>
+                <form action="reg.php" name="myForm" onsubmit="myform(event)" id="logIn">
+                    <input type="text" name="email" placeholder="email address*" required="">
+                    <br>
+                    <label for="" style="color:red">error eccured!</label>
+                    <input type="text" name=" password" placeholder="set a password*" required="">
+                    <br>
+                    <label for="" style="color:red">error eccured!</label>
+                    <p class="forgot"><a href="#">Forgot Password?</a></p>
+                    <button class="btn2">LOG IN</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="asset/js/master.js"></script>
+
+</html>
